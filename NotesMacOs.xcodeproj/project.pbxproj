@@ -20,7 +20,6 @@
 		0764DFF227AD3EA3007D2981 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764DFF027AD3D27007D2981 /* Home.swift */; };
 		0764DFF327AD3F59007D2981 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764DFF027AD3D27007D2981 /* Home.swift */; };
 		07CF70FF27B137CE00D13C0E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF70FE27B137CE00D13C0E /* BlurView.swift */; };
-		07CF710027B137CE00D13C0E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF70FE27B137CE00D13C0E /* BlurView.swift */; };
 		07EE016A27B023F300317A88 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE016927B023F300317A88 /* Note.swift */; };
 		07EE016B27B026B700317A88 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE016927B023F300317A88 /* Note.swift */; };
 /* End PBXBuildFile section */
@@ -341,7 +340,6 @@
 			files = (
 				0764DFDE27AD38EA007D2981 /* ContentView.swift in Sources */,
 				0764DFF227AD3EA3007D2981 /* Home.swift in Sources */,
-				07CF710027B137CE00D13C0E /* BlurView.swift in Sources */,
 				0764DFDC27AD38EA007D2981 /* NotesMacOsApp.swift in Sources */,
 				07EE016B27B026B700317A88 /* Note.swift in Sources */,
 			);
