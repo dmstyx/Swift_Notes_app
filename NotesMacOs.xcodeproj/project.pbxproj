@@ -17,6 +17,12 @@
 		0764DFDE27AD38EA007D2981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764DFB427AD38E9007D2981 /* ContentView.swift */; };
 		0764DFDF27AD38EA007D2981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0764DFB527AD38EA007D2981 /* Assets.xcassets */; };
 		0764DFE027AD38EA007D2981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0764DFB527AD38EA007D2981 /* Assets.xcassets */; };
+		0764DFF227AD3EA3007D2981 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764DFF027AD3D27007D2981 /* Home.swift */; };
+		0764DFF327AD3F59007D2981 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764DFF027AD3D27007D2981 /* Home.swift */; };
+		07CF70FF27B137CE00D13C0E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF70FE27B137CE00D13C0E /* BlurView.swift */; };
+		07CF710027B137CE00D13C0E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF70FE27B137CE00D13C0E /* BlurView.swift */; };
+		07EE016A27B023F300317A88 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE016927B023F300317A88 /* Note.swift */; };
+		07EE016B27B026B700317A88 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE016927B023F300317A88 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		0764DFD327AD38EA007D2981 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0764DFD727AD38EA007D2981 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0764DFD927AD38EA007D2981 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0764DFF027AD3D27007D2981 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		07CF70FE27B137CE00D13C0E /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		07EE016927B023F300317A88 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,8 @@
 		0764DFB227AD38E9007D2981 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				07EE016827B0238F00317A88 /* Model */,
+				0764DFEF27AD3C58007D2981 /* View */,
 				0764DFB327AD38E9007D2981 /* NotesMacOsApp.swift */,
 				0764DFB427AD38E9007D2981 /* ContentView.swift */,
 				0764DFB527AD38EA007D2981 /* Assets.xcassets */,
@@ -139,6 +150,23 @@
 				0764DFD927AD38EA007D2981 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		0764DFEF27AD3C58007D2981 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0764DFF027AD3D27007D2981 /* Home.swift */,
+				07CF70FE27B137CE00D13C0E /* BlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07EE016827B0238F00317A88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07EE016927B023F300317A88 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0764DFDD27AD38EA007D2981 /* ContentView.swift in Sources */,
+				0764DFF327AD3F59007D2981 /* Home.swift in Sources */,
+				07CF70FF27B137CE00D13C0E /* BlurView.swift in Sources */,
 				0764DFDB27AD38EA007D2981 /* NotesMacOsApp.swift in Sources */,
+				07EE016A27B023F300317A88 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +340,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0764DFDE27AD38EA007D2981 /* ContentView.swift in Sources */,
+				0764DFF227AD3EA3007D2981 /* Home.swift in Sources */,
+				07CF710027B137CE00D13C0E /* BlurView.swift in Sources */,
 				0764DFDC27AD38EA007D2981 /* NotesMacOsApp.swift in Sources */,
+				07EE016B27B026B700317A88 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
